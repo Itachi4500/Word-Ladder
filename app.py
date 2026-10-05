@@ -136,5 +136,3 @@ if solve:
             st.write(f'**Level {level}:** `{word}`')
 
 st.divider()
-st.markdown('### How it works')
-st.markdown('BFS explores the state space level-by-level. Each valid word is a node, and an edge connects two words that differ by one character. Because every transformation has equal cost, the first path reaching the target is shortest.')
