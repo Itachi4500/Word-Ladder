@@ -6,11 +6,34 @@ import streamlit as st
 st.set_page_config(page_title='Word Ladder Solver', page_icon='🔤', layout='wide')
 
 DEFAULT_WORDS = '''hit
-        hot, dot, dog, lot, log, cog,
-        hit, hog, hop, cop, cot, cat,
-        bat, bot, bog, bag, big, dig,
-        fig, fog, fit, fin, fun, bun,
-        but, cut, cup, cop, map, mop
+hot
+dot
+dog
+lot
+log
+cog
+hog
+hop
+cop
+cot
+cat
+bat
+bot
+bog
+bag
+big
+dig
+fig
+fog
+fit
+fin
+fun
+bun
+but
+cut
+cup
+map
+mop
 '''.split()
 
 @st.cache_data(show_spinner=False)
